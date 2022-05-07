@@ -74,6 +74,14 @@
       "Hash": "470851b6d5d0ac559e9d01bb352b4021",
       "Requirements": []
     },
+    "Rcpp": {
+      "Package": "Rcpp",
+      "Version": "1.0.8.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "32e79b908fda56ee57fe518a8d37b864",
+      "Requirements": []
+    },
     "backports": {
       "Package": "backports",
       "Version": "1.4.1",
@@ -167,6 +175,20 @@
       "Hash": "23abf173c2b783dcc43379ab9bba00ee",
       "Requirements": [
         "glue"
+      ]
+    },
+    "clustermq": {
+      "Package": "clustermq",
+      "Version": "0.8.95.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "a9cbe19a941c943dd57b0a602b500437",
+      "Requirements": [
+        "R6",
+        "Rcpp",
+        "narray",
+        "progress",
+        "purrr"
       ]
     },
     "codetools": {
@@ -372,6 +394,26 @@
       "Hash": "8eb36c8125038e648e5d111c0d7b2ed4",
       "Requirements": [
         "xfun"
+      ]
+    },
+    "hms": {
+      "Package": "hms",
+      "Version": "1.1.1",
+      "Source": "CRAN",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "hms",
+      "RemoteRef": "hms",
+      "RemoteRepos": "https://cran.rstudio.com/",
+      "RemotePkgPlatform": "aarch64-apple-darwin20",
+      "RemoteSha": "1.1.1",
+      "Hash": "5b8a2dd0fdbe2ab4f6081e6c7be6dfca",
+      "Requirements": [
+        "ellipsis",
+        "lifecycle",
+        "pkgconfig",
+        "rlang",
+        "vctrs"
       ]
     },
     "htmltools": {
@@ -607,6 +649,17 @@
         "paradox"
       ]
     },
+    "narray": {
+      "Package": "narray",
+      "Version": "0.4.1.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c64865aba235f36a49d798613cbfccf7",
+      "Requirements": [
+        "progress",
+        "stringr"
+      ]
+    },
     "palmerpenguins": {
       "Package": "palmerpenguins",
       "Version": "0.1.0",
@@ -663,6 +716,14 @@
       "Hash": "01f28d4278f15c76cddbea05899c5d6f",
       "Requirements": []
     },
+    "prettyunits": {
+      "Package": "prettyunits",
+      "Version": "1.1.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "95ef9167b75dde9d2ccc3c7528393e7e",
+      "Requirements": []
+    },
     "processx": {
       "Package": "processx",
       "Version": "3.5.3",
@@ -672,6 +733,19 @@
       "Requirements": [
         "R6",
         "ps"
+      ]
+    },
+    "progress": {
+      "Package": "progress",
+      "Version": "1.2.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "14dc9f7a3c91ebb14ec5bb9208a07061",
+      "Requirements": [
+        "R6",
+        "crayon",
+        "hms",
+        "prettyunits"
       ]
     },
     "ps": {

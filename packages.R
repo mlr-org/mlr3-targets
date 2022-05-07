@@ -13,6 +13,7 @@ tar_option_set(
     "future.callr",
     "tidyr",
     "dplyr",
-    "visNetwork"
+    "visNetwork",
+    "clustermq"
   )
 )
