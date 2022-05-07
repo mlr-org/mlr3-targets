@@ -5,7 +5,9 @@ repos:
     rev: v0.2.2.9015
     hooks:
     -   id: style-files
-        args: [--style_pkg=styler, --style_fun=mlr_style]
+        args: [--style_pkg=styler.mlr, --style_fun=mlr_style]
+        additional_dependencies:
+        - mlr-org/styler.mlr
     -   id: lintr
     -   id: readme-rmd-rendered
     -   id: parsable-R
