@@ -98,7 +98,7 @@ jobs:
         run: sudo apt install libharfbuzz-dev libfribidi-dev
 
       - name: "[Custom block] [Linux] Install libzmq3-dev"
-        if: runner.os == 'Linux' && matrix.config.pkgdown != ''
+        if: runner.os == 'Linux'
         run: sudo apt install libzmq3-dev
 
       # Try to automatically check for system dependencies and install them
