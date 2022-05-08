@@ -15,6 +15,7 @@ tar_option_set(
     "dplyr",
     "visNetwork",
     "clustermq",
+    "e1071",
     "qs"
   )
 )
