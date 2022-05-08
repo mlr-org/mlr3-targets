@@ -73,3 +73,5 @@ The following bullet points outline the thoughts behind this structure.
   Including the scripts individually in `_targets.R` allows to quickly comment out certain ones (which might relate to a standalone project part). 
   This seems easier than searching for specific target which would avoid other project parts to be run
 - Each "plan" is visible in the global environment including the individual target count
+- The decision to place the list of required packages in `packages.R` instead of `_targets.R` is for the simple reason that the name of `packages.R` is very descriptive. 
+  When a new package is required, I just think "packages" in my head and grep for `packages.R` to add a new package.
