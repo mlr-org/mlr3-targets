@@ -1,6 +1,10 @@
-"05_tuning" <- list(
+"05_tuning" = list(
   tar_target(
-    terminator,
-    trm("evals", n_evals = 3)
+    term_evals,
+    3L
+  ),
+  tar_target(
+    method,
+    "random_search"
   )
 )

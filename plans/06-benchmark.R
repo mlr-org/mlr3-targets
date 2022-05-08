@@ -1,4 +1,4 @@
-"06_benchmark" <- list(
+"06_benchmark" = list(
   tar_target(benchmark_grid, tibble::tribble(
 
     # write learner/ParamSet grid
@@ -24,7 +24,8 @@
       search_space = benchmark_grid$search_space[[1]],
       resampling_inner = resampling_inner,
       resampling_outer = resampling_outer,
-      terminator = terminator
+      term_evals = term_evals,
+      method = method
     ),
     pattern = map(benchmark_grid),
     iteration = "list"
