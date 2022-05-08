@@ -11,4 +11,4 @@ if (ci_has_env("LATEST")) {
 }
 
 get_stage("script") %>%
-  add_code_step(targets::tar_make_clustermq())
+  add_code_step(targets::tar_make())
