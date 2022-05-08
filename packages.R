@@ -14,6 +14,7 @@ tar_option_set(
     "tidyr",
     "dplyr",
     "visNetwork",
-    "clustermq"
+    "clustermq",
+    "qs"
   )
 )
