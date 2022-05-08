@@ -1,21 +1,24 @@
 tar_option_set(
   packages = c(
-    "mlr3",
-    "mlr3tuning",
-    "mlr3learners",
-    "paradox",
-    "conflicted",
-    "stringr",
     "callr",
-    "magrittr",
-    "kknn",
-    "future",
-    "future.callr",
-    "tidyr",
-    "dplyr",
-    "visNetwork",
     "clustermq",
+    "conflicted",
+    "dplyr",
+    "dplyr",
     "e1071",
-    "qs"
+    "future.callr",
+    "future",
+    "kknn",
+    "magrittr",
+    "mlr3",
+    "mlr3learners",
+    "mlr3tuning",
+    "paradox",
+    "qs",
+    "stringr",
+    "tibble",
+    "tidyr",
+    "tidyr",
+    "visNetwork"
   )
 )
